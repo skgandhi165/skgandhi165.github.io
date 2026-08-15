@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Srushti — Data Analyst</title>
+<meta name="description" content="Data analyst portfolio — projects, experience, and writeups on finding signal in data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="dot"></span>SRUSHTI</a>
+    <nav class="links">
+      <a href="index.html" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Data Analyst · Edmonton, AB</span>
+      <h1>I find the signal<br>in messy data.</h1>
+      <p class="lede">I build automation pipelines, forecasting models, and anomaly detection systems that hold up in production. Computer Engineering grad, currently working in data automation &amp; analytics.</p>
+      <div class="hero-actions">
+        <a href="projects.html" class="btn btn-primary">View projects →</a>
+        <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <canvas id="hero-canvas"></canvas>
+    </div>
+  </div>
+</section>
+
+<svg class="signal-divider" viewBox="0 0 1200 40" preserveAspectRatio="none">
+  <path d="M0,20 L500,20 L520,6 L540,34 L560,20 L1200,20"></path>
+</svg>
+
+<section class="tight">
+  <div class="wrap">
+    <span class="eyebrow">Toolkit</span>
+    <div class="stack-strip" style="margin-top:16px;">
+      <span class="tool-pill tag-python">Python</span>
+      <span class="tool-pill tag-sql">SQL</span>
+      <span class="tool-pill tag-powerbi">Power BI</span>
+      <span class="tool-pill tag-ml">scikit-learn</span>
+      <span class="tool-pill tag-tableau">Tableau</span>
+      <span class="tool-pill tag-excel">Excel</span>
+      <span class="tool-pill">Git</span>
+      <span class="tool-pill">dbt</span>
+      <span class="tool-pill">Snowflake</span>
+      <span class="tool-pill">Azure</span>
+      <span class="tool-pill">Gen AI for Analytics</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Selected work</span>
+      <h2>Recent projects</h2>
+    </div>
+    <div class="project-grid">
+
+      <a href="projects.html#route-optimization" class="project-card">
+        <div class="tags"><span class="tag-python">Python</span><span>BLE Signal Data</span></div>
+        <h3>University Route Optimization Mapping System</h3>
+        <p>Collected and processed signal data from 50+ BLE beacons to power campus navigation and identify blind spots.</p>
+        <span class="result">→ 70% increase in route calculation accuracy</span>
+      </a>
+
+      <a href="projects.html#risk-dashboard" class="project-card">
+        <div class="tags"><span class="tag-powerbi">Power BI</span><span class="tag-ml">ML</span></div>
+        <h3>Financial Risk &amp; Portfolio Analytics Dashboard</h3>
+        <p>Risk scoring pipeline and interactive dashboard analyzing 10,000+ simulated accounts for credit risk and exposure.</p>
+        <span class="result">→ 91% classification accuracy</span>
+      </a>
+
+      <a href="projects.html#hr-attrition" class="project-card">
+        <div class="tags"><span class="tag-tableau">Tableau</span></div>
+        <h3>HR Attrition Data Report</h3>
+        <p>A dashboard identifying the factors driving employee churn, broken down by role, department, and demographics.</p>
+        <span class="result">→ Actionable retention insights</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Srushti</span>
+    <span>Edmonton, AB</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
